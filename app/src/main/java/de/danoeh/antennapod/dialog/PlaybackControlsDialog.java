@@ -21,7 +21,7 @@ import de.danoeh.antennapod.core.util.playback.PlaybackController;
 public class PlaybackControlsDialog extends DialogFragment {
     private static final float PLAYBACK_SPEED_STEP = 0.05f;
     private static final float DEFAULT_MIN_PLAYBACK_SPEED = 0.5f;
-    private static final float DEFAULT_MAX_PLAYBACK_SPEED = 2.5f;
+    private static final float DEFAULT_MAX_PLAYBACK_SPEED = 5.0f;
     private static final String ARGUMENT_IS_PLAYING_VIDEO = "isPlayingVideo";
 
     private PlaybackController controller;
